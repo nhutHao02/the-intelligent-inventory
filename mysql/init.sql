@@ -68,7 +68,7 @@ CREATE TABLE `dealerships` (
 
 LOCK TABLES `dealerships` WRITE;
 /*!40000 ALTER TABLE `dealerships` DISABLE KEYS */;
-INSERT INTO `dealerships` VALUES (1,'2026-05-02 21:39:20.572533','2026-05-02 21:39:20.572533','Ho Chi Minh City, VN','dealershipT1@gmail.com','Dealership T1',' (+84) 911 225 411','ACTIVE'),(2,'2026-05-02 21:39:20.572533','2026-05-02 21:39:20.572533','Ho Chi Minh City, VN','dealershipT2@gmail.com','Dealership T2',' (+84) 911 123 123','ACTIVE'),(3,'2026-05-02 21:39:20.572533','2026-05-02 21:39:20.572533','Ho Chi Minh City, VN','dealershipT3@gmail.com','Dealership T3',' (+84) 911 321 321',NULL);
+INSERT INTO `dealerships` VALUES (1,'2026-05-02 21:39:20.572533','2026-05-02 21:39:20.572533','Ho Chi Minh City, VN','dealershipT1@gmail.com','Dealership T1',' (+84) 911 225 411','ACTIVE'),(2,'2026-05-02 21:39:20.572533','2026-05-02 21:39:20.572533','Ho Chi Minh City, VN','dealershipT2@gmail.com','Dealership T2',' (+84) 911 123 123','ACTIVE'),(3,'2026-05-02 21:39:20.572533','2026-05-02 21:39:20.572533','Ho Chi Minh City, VN','dealershipT3@gmail.com','Dealership T3',' (+84) 911 321 321','ACTIVE');
 /*!40000 ALTER TABLE `dealerships` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -190,4 +190,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-05-04 20:40:29
+-- Dump completed on 2026-05-04 21:26:31
