@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: the-intelligent-inventory
+  server:
+    port: ${PORT:8080}
+
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3306/intelligent_inventory_dashboard}
+    username: ${SPRING_DATASOURCE_USERNAME:root}
+    password: ${SPRING_DATASOURCE_PASSWORD:root}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+
+  data:
+    redis:
+      host: ${SPRING_REDIS_HOST:localhost}
+      port: ${SPRING_REDIS_PORT:6379}
+      timeout: 2000ms
+
+jwt:
+  secret: c647398530498c6a8d71a5882e406106f7b5de2cf02fb58f7072722a9cd51131
+  issuer: haotran
+  domain: "*"
+
+logging:
+  level:
+    root: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - traceId=%X{traceId} - [%-5level] %logger{0}:%line - %msg%n"
