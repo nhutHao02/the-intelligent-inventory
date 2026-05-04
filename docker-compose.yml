@@ -9,6 +9,8 @@ services:
       MYSQL_DATABASE: intelligent_inventory_dashboard
     ports:
       - "3306:3306"
+    volumes:
+      - ./mysql:/docker-entrypoint-initdb.d
 
   redis:
     image: redis:8.6
