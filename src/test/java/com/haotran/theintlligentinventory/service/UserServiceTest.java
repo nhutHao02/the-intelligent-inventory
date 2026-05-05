@@ -142,7 +142,7 @@ public class UserServiceTest {
 
         // then
         assertNotNull(res);
-        assertEquals("accessToke", res.getAccessToken());
+        assertEquals("accessToken", res.getAccessToken());
     }
 
     @Test

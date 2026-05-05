@@ -120,7 +120,7 @@ mvn spring-boot:run
 
 ```bash
 mvn clean package
-java -jar target/the-intelligent-inventory.jar
+java -jar target/theintelligentinventory-0.0.1-SNAPSHOT.jar
 ```
 
 ---
